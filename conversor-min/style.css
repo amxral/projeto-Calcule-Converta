@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+.schoolbell-regular {
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+@media screen and (max-width: 770px){
+    input {
+        display: inline-block;
+        height: 40px;
+        width: 100%;
+        text-align: center;
+        font-size: 1.3em;
+        margin-bottom: 10px;
+    }
+    input#n1 {
+    width: 96%;
+    border-radius: 10px;
+    font-size: 1.5em;
+    }
+    #res {
+        font-size: 1.5em
+    }
+}
+body {
+    position: relative;
+    font: normal 1em arial;
+    background: rgb(136, 134, 134) url(../images/image.png) center no-repeat fixed;
+    background-size: cover;
+}
+header {
+    background-color: rgb(8, 59, 2);
+    margin: 0px;
+    height: 100px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.539);
+
+}
+header > h1 {
+    font-family: "Schoolbell", cursive;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+div#cal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.361);
+}
+div#cal > h1 {
+    padding: 10px;
+}
+
+input.cxsoma {
+    width: 100px;
+    border-radius: 10px;
+}
+input#btn {
+    border-radius: 10px;
+}
+#res {
+    margin-top: 20px;
+}
+mark {
+    background-color: rgb(47, 241, 47);
+    padding-left: 2px;
+    padding-right: 2px;
+}
