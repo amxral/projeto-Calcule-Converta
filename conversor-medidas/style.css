@@ -48,6 +48,22 @@ header > h1 {
     text-align: center;
     padding-top: 10px;
 }
+menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-family: "Schoolbell", cursive;
+    padding: 10px;
+}
+menu > ul > li > a:hover {
+    text-decoration: underline;
+    color: rgb(169, 168, 168);
+}
+menu ul {
+    margin: 0;
+}
+menu > ul > li {
+    display: inline-block;
+}
 div#cal {
     position: absolute;
     left: 50%;

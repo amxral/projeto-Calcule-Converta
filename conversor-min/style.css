@@ -12,6 +12,9 @@
     margin: 0px;
 }
 @media screen and (max-width: 770px){
+    header h1{
+        padding-bottom: 10px;
+    }
     input {
         display: inline-block;
         height: 40px;
@@ -47,6 +50,23 @@ header > h1 {
     color: white;
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-family: "Schoolbell", cursive;
+    padding: 10px;
+}
+menu > ul > li > a:hover {
+    text-decoration: underline;
+    color: rgb(169, 168, 168);
+}
+menu ul {
+    margin: 0;
+}
+menu > ul > li {
+    display: inline-block;
 }
 div#cal {
     position: absolute;
