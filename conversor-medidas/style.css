@@ -62,8 +62,11 @@ div#cal {
 }
 div#cal > h1 {
     padding: 10px;
+    font-size: 2em;
 }
-
+div#cal > p {
+    padding-bottom: 10px;
+}
 input.cxsoma {
     width: 100px;
     border-radius: 10px;
