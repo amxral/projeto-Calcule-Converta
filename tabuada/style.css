@@ -1,14 +1,15 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
-.schoolbell-regular {
-    font-family: "Schoolbell", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+
 * {
     padding: 0;
     margin: 0;
+}
+@media screen and (max-width: 402px){
+    menu {
+        padding-top: 10px;
+        font-size: .9em;
+    }
 }
 body {
     position: relative;
@@ -45,11 +46,17 @@ menu > ul > li > a:hover {
 }
 menu ul {
     margin: 0;
+    padding-top: 10px;
 }
 menu > ul > li {
     display: inline-block;
 }
 section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+
     margin: auto;
     max-width: 300px;
     background-color: white;
@@ -63,9 +70,4 @@ input {
 }
 select {
     margin-top: 10px;
-}
-footer {
-    color: white;
-    font-style: italic;
-    text-align: center;
 }

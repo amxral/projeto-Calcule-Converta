@@ -11,6 +11,12 @@
     padding: 0px;
     margin: 0px;
 }
+@media screen and (max-width: 402px){
+    menu {
+        padding-top: 10px;
+        font-size: .9em;
+    }
+}
 @media screen and (max-width: 770px){
     header h1{
         padding-bottom: 10px;
@@ -30,6 +36,9 @@
     }
     #res {
         font-size: 1.5em
+    }
+    div#cal {
+        width: 80vw;
     }
 }
 body {

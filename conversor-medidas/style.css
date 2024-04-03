@@ -11,6 +11,12 @@
     padding: 0px;
     margin: 0px;
 }
+@media screen and (max-width: 402px){
+    menu {
+        padding-top: 10px;
+        font-size: .9em;
+    }
+}
 @media screen and (max-width: 770px){
     input {
         display: inline-block;
@@ -27,6 +33,9 @@
     }
     #res {
         font-size: 1.5em
+    }
+    div#cal {
+        width: 80vw;
     }
 }
 body {
@@ -60,6 +69,7 @@ menu > ul > li > a:hover {
 }
 menu ul {
     margin: 0;
+    padding-top: 10px;
 }
 menu > ul > li {
     display: inline-block;
