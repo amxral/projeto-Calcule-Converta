@@ -41,7 +41,7 @@
 body {
     position: relative;
     font: normal 1em arial;
-    background: rgb(136, 134, 134) url(../images/image.png) center no-repeat fixed;
+    background: rgb(136, 134, 134) url(../images/image.jpg) center no-repeat fixed;
     background-size: cover;
 }
 header {
