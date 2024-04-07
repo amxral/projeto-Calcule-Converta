@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(pasta1|pasta2|pasta3) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
