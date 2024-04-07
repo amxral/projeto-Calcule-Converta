@@ -5,7 +5,6 @@
     font-weight: 400;
     font-style: normal;
   }
-  
 
 * {
     padding: 0px;
@@ -18,9 +17,6 @@
     }
 }
 @media screen and (max-width: 770px){
-    header h1{
-        padding-bottom: 10px;
-    }
     input {
         display: inline-block;
         height: 40px;
@@ -44,7 +40,7 @@
 body {
     position: relative;
     font: normal 1em arial;
-    background: rgb(136, 134, 134) url(../images/image.jpg) center no-repeat fixed;
+    background: rgb(136, 134, 134) url(image.jpg) center no-repeat fixed;
     background-size: cover;
 }
 header {
@@ -59,7 +55,6 @@ header > h1 {
     color: white;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 menu > ul > li > a{
     color: white;
@@ -73,6 +68,7 @@ menu > ul > li > a:hover {
 }
 menu ul {
     margin: 0;
+    padding-top: 10px;
 }
 menu > ul > li {
     display: inline-block;
@@ -91,8 +87,11 @@ div#cal {
 }
 div#cal > h1 {
     padding: 10px;
+    font-size: 2em;
 }
-
+div#cal > p {
+    padding-bottom: 10px;
+}
 input.cxsoma {
     width: 100px;
     border-radius: 10px;

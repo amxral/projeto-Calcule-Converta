@@ -14,7 +14,7 @@
 body {
     position: relative;
     font: normal 1em arial;
-    background: lightgray url(../images/image.jpg) center no-repeat fixed;
+    background: lightgray url(image.jpg) center no-repeat fixed;
     background-size: cover;
 }
 h1 {
